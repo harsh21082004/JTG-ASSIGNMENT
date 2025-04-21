@@ -156,7 +156,7 @@
     </div>
     <div class="testimonials-section slide-up">
         <h4>Testimonials</h4>
-
+    
         <div class="testimonials-wrapper">
             <div class="testimonials-middle">
                 <img src="/images/IBM.png" alt="">
@@ -170,8 +170,8 @@
                     </div>
                 </div>
             </div>
-
-            <div class="testimonials-middle" style="display: none;">
+    
+            <div class="testimonials-middle">
                 <img src="/images/IBM.png" alt="">
                 <p>This platform made our planning way smoother. Big fan of the simple UI.</p>
                 <div class="profile">
@@ -182,8 +182,8 @@
                     </div>
                 </div>
             </div>
-
-            <div class="testimonials-middle" style="display: none;">
+    
+            <div class="testimonials-middle">
                 <img src="/images/IBM.png" alt="">
                 <p>Absolutely love the clean design and flexibility. It’s exactly what we needed.</p>
                 <div class="profile">
@@ -195,7 +195,7 @@
                 </div>
             </div>
         </div>
-
+    
         <div class="testimonials-bottom">
             <div class="dots">
                 <li class="active" data-index="0"></li>
@@ -204,6 +204,7 @@
             </div>
         </div>
     </div>
+    
 
     <div class="pricing-section" id="pricing">
         <div class="pricing-content">
@@ -213,7 +214,7 @@
         </div>
 
         <div class="pricing-cards">
-            <div class="pricing-card slide-right">
+            <div class="pricing-card slide-up">
                 <h4>Free</h4>
                 <p>Organize across all apps by hand</p>
                 <div class="price">
@@ -251,7 +252,7 @@
                 </ul>
                 <button class="try-btn">Order Now</button>
             </div>
-            <div class="pricing-card slide-left">
+            <div class="pricing-card slide-up">
                 <h4>Business</h4>
                 <p>Organize across all apps by hand</p>
                 <div class="price">
@@ -278,13 +279,21 @@
             <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
         </div>
         <div class="contact-form">
-            <form action="">
+            <form action="" id="contactForm">
                 <h4>Contact Us</h4>
                 <input type="text" placeholder="Your Name" required>
                 <input type="email" placeholder="Your Email" required>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
                 <button class="try-btn">Send</button>
             </form>
+
+            <div id="successModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <p>Your query sent successfully</p>
+                </div>
+            </div>
+
             <div class="map-section">
                 <div class="top">
                     <div class="icon">
